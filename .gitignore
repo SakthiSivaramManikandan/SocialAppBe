@@ -1,4 +1,30 @@
-node_modules
+# Dependencies
+node_modules/
+*/node_modules/
+
+# All env files everywhere
 .env
-.env.example
+.env.local
 .env.production
+.env.development
+**/.env
+**/.env.local
+**/.env.production
+**/.env.development
+
+# Specifically the backend ones
+backend/.env
+backend/.env.production
+backend/.env.example
+
+# Frontend
+frontend/.env.local
+frontend/.env.production
+
+# Build
+frontend/build/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
